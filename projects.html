@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Nuruddeen Safiyanu</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .project-card { display: flex; flex-direction: column; }
+    .project-links { display: flex; gap: 10px; margin-top: 12px; }
+    .project-links a {
+      font-size: 0.8rem; font-weight: 600; padding: 6px 14px;
+      border-radius: var(--radius); border: 1.5px solid var(--accent);
+      color: var(--accent); transition: all 0.2s;
+    }
+    .project-links a:hover { background: var(--accent); color: white; text-decoration: none; }
+    .project-num { font-family: 'DM Serif Display', serif; font-size: 2rem; color: var(--light-gray); line-height: 1; margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Nuruddeen.</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container">
+      <p class="section-label">What I've built</p>
+      <h1>Projects</h1>
+      <p style="max-width:540px; color:#555; margin-top:12px;">Each project is a stepping stone — here's what I've worked on so far.</p>
+    </div>
+  </div>
+
+  <section class="page-section">
+    <div class="container">
+      <div class="card-grid">
+
+        <div class="card project-card">
+          <div class="project-num">01</div>
+          <h3>Personal Portfolio Website</h3>
+          <p>This website! Built from scratch using HTML and CSS. Features 10 pages, a consistent design system, and is deployed on Vercel.</p>
+          <div><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Vercel</span></div>
+          <div class="project-links"><a href="#">Live Site</a><a href="#">GitHub</a></div>
+        </div>
+
+        <div class="card project-card">
+          <div class="project-num">02</div>
+          <h3>Tribute Page</h3>
+          <p>A tribute page dedicated to a person I admire. Focused on semantic HTML, typographic hierarchy, and clean layout.</p>
+          <div><span class="tag">HTML</span><span class="tag">CSS</span></div>
+          <div class="project-links"><a href="#">Live Site</a><a href="#">GitHub</a></div>
+        </div>
+
+        <div class="card project-card">
+          <div class="project-num">03</div>
+          <h3>Product Landing Page</h3>
+          <p>A mock landing page for a product. Practised CSS flexbox, call-to-action buttons, and responsive layout.</p>
+          <div><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Flexbox</span></div>
+          <div class="project-links"><a href="#">Live Site</a><a href="#">GitHub</a></div>
+        </div>
+
+        <div class="card project-card">
+          <div class="project-num">04</div>
+          <h3>Survey Form</h3>
+          <p>An accessible HTML form with various input types — text, radio, checkboxes, dropdowns. Styled with CSS for clarity.</p>
+          <div><span class="tag">HTML Forms</span><span class="tag">CSS</span><span class="tag">Accessibility</span></div>
+          <div class="project-links"><a href="#">Live Site</a><a href="#">GitHub</a></div>
+        </div>
+
+        <div class="card project-card">
+          <div class="project-num">05</div>
+          <h3>Technical Documentation Page</h3>
+          <p>A multi-section documentation layout with fixed sidebar navigation, built entirely in HTML and CSS.</p>
+          <div><span class="tag">HTML</span><span class="tag">CSS Grid</span><span class="tag">Navigation</span></div>
+          <div class="project-links"><a href="#">Live Site</a><a href="#">GitHub</a></div>
+        </div>
+
+        <div class="card project-card">
+          <div class="project-num">06</div>
+          <h3>Coming Soon...</h3>
+          <p>Currently working on a new project. Follow my GitHub to stay updated on what's next.</p>
+          <div><span class="tag">In Progress</span></div>
+          <div class="project-links"><a href="contact.html">Contact Me</a></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+      <p>© 2026 Nuruddeen Safiyanu. Built with HTML &amp; CSS.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

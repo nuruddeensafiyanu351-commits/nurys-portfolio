@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume — Nuruddeen Safiyanu</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .resume-section { margin-bottom: 40px; }
+    .resume-section h2 { border-bottom: 2px solid var(--accent); padding-bottom: 8px; margin-bottom: 20px; }
+    .resume-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+    .resume-role { font-weight: 600; font-size: 1rem; }
+    .resume-date { font-size: 0.8rem; color: var(--mid-gray); font-weight: 500; white-space: nowrap; padding-top: 2px; }
+    .resume-item { margin-bottom: 24px; }
+    .print-btn { display: flex; justify-content: flex-end; margin-bottom: 32px; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Nuruddeen.</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container">
+      <p class="section-label">My CV</p>
+      <h1>Resume</h1>
+      <p style="max-width:540px; color:#555; margin-top:12px;">A summary of my background, skills, and experience.</p>
+    </div>
+  </div>
+
+  <section class="page-section">
+    <div class="container">
+
+      <div class="print-btn">
+        <button class="btn btn-outline" onclick="window.print()">🖨️ Print / Save PDF</button>
+      </div>
+
+      <!-- Header -->
+      <div style="text-align:center; margin-bottom:48px;">
+        <h1 style="font-size:2rem; margin-bottom:8px;">Nuruddeen Safiyanu</h1>
+        <p style="color:var(--accent); font-weight:600; margin:0;">Software Engineering Student · Faculty of Computing · Level 200</p>
+        <p style="color:#555; margin-top:6px;">Nigeria</p>
+        <p style="margin-top:4px;">
+          <a href="mailto:nuruddeensafiyanu351@gmail.com">nuruddeensafiyanu351@gmail.com</a>
+          &nbsp;·&nbsp;
+          <a href="https://github.com/nuruddeensafiyanu351-commits" target="_blank">github.com/nuruddeensafiyanu351-commits</a>
+        </p>
+      </div>
+
+      <!-- Summary -->
+      <div class="resume-section">
+        <h2>Professional Summary</h2>
+        <p>
+          Passionate Software Engineering student (Level 200, Faculty of Computing) with hands-on experience
+          building static websites using HTML5 and CSS3. Skilled in responsive layouts with flexbox and grid,
+          version control with Git, and deploying projects via Vercel. freeCodeCamp certified with 300 hours
+          of practical web design training. Eager to learn, grow, and contribute to real-world web projects.
+        </p>
+      </div>
+
+      <!-- Skills -->
+      <div class="resume-section">
+        <h2>Technical Skills</h2>
+        <div style="margin-top:4px;">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">Flexbox</span>
+          <span class="tag">CSS Grid</span>
+          <span class="tag">Responsive Design</span>
+          <span class="tag">Git</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">Vercel</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">JavaScript (beginner)</span>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="resume-section">
+        <h2>Education</h2>
+        <div class="resume-item">
+          <div class="resume-row">
+            <div class="resume-role">B.Sc. Software Engineering — Faculty of Computing</div>
+            <div class="resume-date">2024 – Present</div>
+          </div>
+          <p style="margin-top:4px; color:#555; font-size:0.9rem;">Level 200. Studying software development, algorithms, data structures, and web technologies.</p>
+        </div>
+        <div class="resume-item">
+          <div class="resume-row">
+            <div class="resume-role">Secondary School Certificate</div>
+            <div class="resume-date">Completed</div>
+          </div>
+          <p style="margin-top:4px; color:#555; font-size:0.9rem;">Completed with focus on sciences and mathematics.</p>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <div class="resume-section">
+        <h2>Projects</h2>
+        <div class="resume-item">
+          <div class="resume-row">
+            <div class="resume-role">Personal Portfolio Website</div>
+            <div class="resume-date">2026</div>
+          </div>
+          <p style="margin-top:4px; color:#555; font-size:0.9rem;">
+            10-page portfolio site built with HTML &amp; CSS. Deployed to Vercel via GitHub.
+            Features responsive layout, custom design system, and consistent navigation.
+          </p>
+        </div>
+        <div class="resume-item">
+          <div class="resume-row">
+            <div class="resume-role">freeCodeCamp Certification Projects (×5)</div>
+            <div class="resume-date">2026</div>
+          </div>
+          <p style="margin-top:4px; color:#555; font-size:0.9rem;">
+            Tribute page, survey form, product landing page, technical documentation page, and personal portfolio — all built with HTML &amp; CSS.
+          </p>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="resume-section">
+        <h2>Certifications</h2>
+        <div class="resume-item">
+          <div class="resume-row">
+            <div class="resume-role">Legacy Responsive Web Design V8 — freeCodeCamp</div>
+            <div class="resume-date">June 27, 2026</div>
+          </div>
+          <p style="margin-top:4px; color:#555; font-size:0.9rem;">
+            Developer Certification representing approximately 300 hours of work.
+            Issued by freeCodeCamp.org · Signed by Quincy Larson, Executive Director.
+          </p>
+          <!-- Certificate Image -->
+          <div style="margin-top:16px;">
+            <img
+              src="https://raw.githubusercontent.com/nuruddeensafiyanu351-commits/Nura/refs/heads/main/certificate.png"
+              alt="freeCodeCamp Legacy Responsive Web Design V8 Certificate — Nuruddeen Safiyanu"
+              style="max-width:100%; border:1px solid #e0e0e0; border-radius:8px; box-shadow:0 2px 12px rgba(0,0,0,0.08);"
+              onerror="this.src='certificate.png'"
+            />
+            <p style="font-size:0.78rem; color:#999; margin-top:8px;">
+              Verify at:
+              <a href="https://freecodecamp.org/certification/aliyu2004/responsive-web-design" target="_blank">
+                freecodecamp.org/certification/aliyu2004/responsive-web-design
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+      <p>© 2026 Nuruddeen Safiyanu. Built with HTML &amp; CSS.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
